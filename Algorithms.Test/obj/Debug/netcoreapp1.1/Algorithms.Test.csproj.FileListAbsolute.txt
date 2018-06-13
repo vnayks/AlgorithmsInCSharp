@@ -1,0 +1,14 @@
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.Test.deps.json
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.Test.runtimeconfig.json
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.Test.runtimeconfig.dev.json
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.Test.dll
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.Test.pdb
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\obj\Debug\netcoreapp1.1\Algorithms.Test.csproj.CoreCompileInputs.cache
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\obj\Debug\netcoreapp1.1\Algorithms.Test.AssemblyInfo.cs
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\obj\Debug\netcoreapp1.1\Algorithms.Test.dll
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\obj\Debug\netcoreapp1.1\Algorithms.Test.pdb
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.dll
+C:\Users\meetv\source\repos\Algorithms\core\Algorithms\Algorithms.Test\bin\Debug\netcoreapp1.1\Algorithms.pdb
