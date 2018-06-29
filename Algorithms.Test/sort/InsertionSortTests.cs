@@ -152,5 +152,152 @@ namespace Algorithms.Test {
             //Assert
             Assert.IsTrue (isSorted);
         }
+
+        //Descending Order Tests;
+        [TestMethod]
+        public void SortDescending_BasicTest_ShouldReturnSortedArray () {
+            //Arrange
+            var nums = new int[] { 5, 1, 4, 3 };
+
+            //Act
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            var isSorted = Utils.IsSortedDescending (result);
+
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_LongArray_ShouldReturnSortedArray () {
+            //Arrange
+            var arraySize = 1000;
+            var nums = new int[arraySize];
+            Random random = new Random ();
+            Stopwatch watch = new Stopwatch ();
+            for (var i = 0; i < arraySize; i++) {
+                nums[i] = random.Next (1, arraySize);
+            }
+
+            //Act
+            watch.Start ();
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            watch.Stop ();
+
+            var isSorted = Utils.IsSortedDescending (result);
+            Console.WriteLine (result.PrintArrayElements ());
+            Console.WriteLine ("Time Taken for Long Array : " + watch.Elapsed);
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_XLongArray_ShouldReturnSortedArray () {
+            //Arrange
+            var arraySize = 10000;
+            var nums = new int[arraySize];
+            Random random = new Random ();
+            Stopwatch watch = new Stopwatch ();
+            for (var i = 0; i < arraySize; i++) {
+                nums[i] = random.Next (1, arraySize);
+            }
+
+            //Act
+            watch.Start ();
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            watch.Stop ();
+
+            var isSorted = Utils.IsSortedDescending (result);
+            Console.WriteLine (result.PrintArrayElements ());
+            Console.WriteLine ("Time Taken x-Long Array : " + watch.Elapsed);
+
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_XXLongArray_ShouldReturnSortedArray () {
+            //Arrange
+            var arraySize = 100000;
+            var nums = new int[arraySize];
+            Random random = new Random ();
+            Stopwatch watch = new Stopwatch ();
+            for (var i = 0; i < arraySize; i++) {
+                nums[i] = random.Next (1, arraySize);
+            }
+
+            //Act
+            watch.Start ();
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            watch.Stop ();
+
+            var isSorted = Utils.IsSortedDescending (result);
+            Console.WriteLine (result.PrintArrayElements ());
+            Console.WriteLine ("Time Taken xx-Long Array : " + watch.Elapsed);
+
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_NegativeNumber_ShouldReturnSortedArray () {
+            //Arrange
+            var nums = new int[] {-5, -1, -4, -3 };
+
+            //Act
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            var isSorted = Utils.IsSortedDescending (result);
+
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_NegativeLongArray_ShouldReturnSortedArray () {
+            //Arrange
+            var arraySize = 1000;
+            var nums = new int[arraySize];
+            Random random = new Random ();
+            Stopwatch watch = new Stopwatch ();
+            for (var i = 0; i < arraySize; i++) {
+                nums[i] = random.Next (arraySize * (-1), 0);
+            }
+
+            //Act
+            watch.Start ();
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            watch.Stop ();
+
+            var isSorted = Utils.IsSortedDescending (result);
+            Console.WriteLine (result.PrintArrayElements ());
+            Console.WriteLine ("Time Taken for Long Array : " + watch.Elapsed);
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_EqualIntegers_ShouldReturnSortedArray () {
+            //Arrange
+            var nums = new int[] { 1, 1, 1, 1, 1, 1, 1, 1 };
+
+            //Act
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            var isSorted = Utils.IsSortedDescending (result);
+
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
+
+        [TestMethod]
+        public void SortDescending_EmptyArray_ShouldReturnSortedArray () {
+            //Arrange
+            var nums = new int[] { };
+
+            //Act
+            var result = InsertionSort.Sort (nums, SortOrder.Descending);
+            var isSorted = Utils.IsSortedDescending (result);
+
+            //Assert
+            Assert.IsTrue (isSorted);
+        }
     }
 }
