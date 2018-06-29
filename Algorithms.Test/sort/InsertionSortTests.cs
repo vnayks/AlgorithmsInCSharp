@@ -93,8 +93,8 @@ namespace Algorithms.Test {
 
         [TestMethod]
         public void Sort_NegativeNumber_ShouldReturnSortedArray () {
-           //Arrange
-            var nums = new int[] { -5, -1, -4, -3 };
+            //Arrange
+            var nums = new int[] {-5, -1, -4, -3 };
 
             //Act
             var result = InsertionSort.Sort (nums);
@@ -112,7 +112,7 @@ namespace Algorithms.Test {
             Random random = new Random ();
             Stopwatch watch = new Stopwatch ();
             for (var i = 0; i < arraySize; i++) {
-                nums[i] = random.Next (arraySize*(-1),0);
+                nums[i] = random.Next (arraySize * (-1), 0);
             }
 
             //Act
@@ -127,10 +127,10 @@ namespace Algorithms.Test {
             Assert.IsTrue (isSorted);
         }
 
-         [TestMethod]
+        [TestMethod]
         public void Sort_EqualIntegers_ShouldReturnSortedArray () {
-           //Arrange
-            var nums = new int[] { 1,1,1,1,1,1,1,1};
+            //Arrange
+            var nums = new int[] { 1, 1, 1, 1, 1, 1, 1, 1 };
 
             //Act
             var result = InsertionSort.Sort (nums);
@@ -140,10 +140,10 @@ namespace Algorithms.Test {
             Assert.IsTrue (isSorted);
         }
 
-         [TestMethod]
+        [TestMethod]
         public void Sort_EmptyArray_ShouldReturnSortedArray () {
-           //Arrange
-            var nums = new int[] {};
+            //Arrange
+            var nums = new int[] { };
 
             //Act
             var result = InsertionSort.Sort (nums);
